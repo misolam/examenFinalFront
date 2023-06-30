@@ -5,7 +5,7 @@ function Header() {
   <>
   <div className="header">
 
-  <img src="public\images\tooth-solid.svg" alt="" className="molar"/>
+  <img src="/images/tooth-solid.svg" alt="tooth" className="molar"/>
   <h1 className="title">consuldent</h1>
   </div>
   </>

@@ -34,7 +34,7 @@ function Card({ data }) {
   return (
     <div key={data.id} className="card">
       <Link to={`/dentist/${data.id}`} className="link">
-        <img src='/public\images\doctor.jpg' className="doctor-img"/>
+        <img src='/images/doctor.jpg' className="doctor-img" alt="doctor"/>
         <p>{data.name}</p>
         <p>{data.username}</p>
         <p>{data.email}</p>
