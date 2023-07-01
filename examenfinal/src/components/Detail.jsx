@@ -24,8 +24,8 @@ function Detail() {
   return (
     <div className="card-container">
       <h1>{userInfo.name}</h1>
-      <img src='/public\images\doctor.jpg' className="doctor-img"/>
-      <p>Email: {userInfo.email}</p>
+      
+        <img src='/images/doctor.jpg' className="doctor-img" alt="doctor"/>      <p>Email: {userInfo.email}</p>
       <p>Phone: {userInfo.phone}</p>
       <p>Address:</p>
       <ul>
